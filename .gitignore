@@ -1,2 +1,4 @@
 node_modules/
 vms_fe/node_modules/
+vms_fe/package-lock.json/
+vms_fe/package.json/
