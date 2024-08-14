@@ -16,7 +16,7 @@ const SearchTest = () => {
     <div
       style={{
         padding: "20px",
-        backgroundColor: "#1a1a1a",
+        backgroundColor: "green",
         minHeight: "100vh",
       }}
     >

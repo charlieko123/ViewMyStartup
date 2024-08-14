@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box;
+}
+:root {
+  --black-400: #131313;
+  --black-300: #212121;
+  --black-200: #282828;
+  --black-100: #2e2e2e;
+
+  --gray-400: #333333;
+  --gray-300: #4b4b4b;
+  --gray-200: #747474;
+  --gray-100: #d8d8d8;
+
+  --brand-orange: #eb5230;
+  --blue-blue: #558fff;
+  --error-red: #c41013;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Pretendard", sans-serif;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.text-xs {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.text-md {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+.text-lg {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+.text-2lg {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+.text-xl {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+.bold {
+  font-weight: 700;
+}
+.semibold {
+  font-weight: 600;
+}
+.medium {
+  font-weight: 500;
+}
+.regular {
+  font-weight: 400;
+}

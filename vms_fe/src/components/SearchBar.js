@@ -1,9 +1,10 @@
 import searchIcon from "../assets/images/ic_search.svg";
 import deleteIcon from "../assets/images/ic_delete_circle_small.svg";
+import "../assets/styles/SearchBar.css";
 
 const SearchBar = ({ value, onChange, onClear }) => {
   return (
-    <div className={`search-bar ${value ? "active" : ""}`}>
+    <div className="search-bar">
       <input
         type="text"
         className="search-input"
@@ -14,13 +15,13 @@ const SearchBar = ({ value, onChange, onClear }) => {
       <img
         src={searchIcon}
         alt="Search button"
-        className={`search-icon ${value ? "right" : ""}`}
+        className={`search-icon ${value ? "active" : ""}`}
       />
       {value && (
         <img
           src={deleteIcon}
           alt="Delete button"
-          className="deleteButton"
+          className="delete-button"
           onClick={onClear}
         />
       )}
