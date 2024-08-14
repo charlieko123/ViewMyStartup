@@ -1,14 +1,8 @@
 node_modules/
-<<<<<<< HEAD
-<<<<<<< HEAD
 package-lock.json/
 package.json/
 vms_fe/node_modules/
 vms_fe/package-lock.json/
 vms_fe/package.json/
-=======
->>>>>>> upstream/main
-=======
-vms_fe/node_modules/
 vms_fe/src/pages/temp.js
->>>>>>> feature/ui-searchbar-고종민
+
