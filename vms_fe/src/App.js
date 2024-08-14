@@ -1,7 +1,9 @@
+import SearchTest from "./pages/temp.js";
+
 function App() {
   return (
     <div className="App">
-      <h1>Learn React</h1>
+      <SearchTest />
     </div>
   );
 }
