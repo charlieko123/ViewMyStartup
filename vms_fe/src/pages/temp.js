@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SearchBar from "../components/SearchBar.js";
+import SearchBarSmall from "../components/SearchBarSmall.js";
 
 const SearchTest = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -26,6 +27,7 @@ const SearchTest = () => {
         onChange={handleSearchChange}
         onClear={handleClearSearch}
       />
+      <SearchBarSmall value={searchQuery} onChange={handleSearchChange} />
       {searchQuery && (
         <p style={{ color: "white", marginTop: "20px" }}>
           입력된 검색어: {searchQuery}
