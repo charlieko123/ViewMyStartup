@@ -5,21 +5,6 @@
 * {
   box-sizing: border-box;
 }
-:root {
-  --black-400: #131313;
-  --black-300: #212121;
-  --black-200: #282828;
-  --black-100: #2e2e2e;
-
-  --gray-400: #333333;
-  --gray-300: #4b4b4b;
-  --gray-200: #747474;
-  --gray-100: #d8d8d8;
-
-  --brand-orange: #eb5230;
-  --blue-blue: #558fff;
-  --error-red: #c41013;
-}
 html,
 body,
 div,
@@ -143,6 +128,21 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+:root {
+  --black-400: #131313;
+  --black-300: #212121;
+  --black-200: #282828;
+  --black-100: #2e2e2e;
+
+  --gray-400: #333333;
+  --gray-300: #4b4b4b;
+  --gray-200: #747474;
+  --gray-100: #d8d8d8;
+
+  --brand-orange: #eb5230;
+  --blue-blue: #558fff;
+  --error-red: #c41013;
 }
 html {
   font-size: 62.5%;
