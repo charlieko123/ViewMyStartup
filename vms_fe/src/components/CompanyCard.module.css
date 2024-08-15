@@ -1,0 +1,42 @@
+.companyCard {
+  width: 126px;
+  height: 187px;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.deleteButton {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 32px;
+}
+.companyName {
+  color: var(--white);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.companyCategory {
+  color: var(--gray-200);
+  margin-top: 4px;
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 743px) {
+  .companyCard {
+    width: 104px;
+    height: 163px;
+  }
+  .logo {
+    width: 65px;
+    height: 65px;
+  }
+}

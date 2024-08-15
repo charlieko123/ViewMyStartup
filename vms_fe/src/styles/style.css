@@ -18,6 +18,8 @@
   --brand-orange: #eb5230;
   --blue-blue: #558fff;
   --error-red: #c41013;
+
+  --white: #ffffff;
 }
 .text-xs {
   font-size: 1.2rem;
